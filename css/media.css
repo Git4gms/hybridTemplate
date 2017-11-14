@@ -1,0 +1,20 @@
+@media screen and (min-width: 700px) {
+    div[data-role="header"]{
+        background-color: #00bb90 !important;
+        border-color: #ddd !important;
+        color: #fff !important;
+        text-shadow: 0 1px 0 #eee !important;
+        font-weight: 700;
+        font-size: 1.5em !important;
+    
+    }
+    div[data-role="header"] button.back-button{
+        width: 10%!important;
+        top: 13%;
+        padding: 20px;
+    }
+    div[data-role="header"] button.back-button:after{
+        width: 30px !important;
+        height: 30px !important;
+    }
+}

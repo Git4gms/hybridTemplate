@@ -1,0 +1,74 @@
+body{
+    padding:0 !important;
+}
+.page-overlay-loading
+{
+    display : block;
+    position : fixed;
+    z-index: 100;
+    background-image : url('../assets/images/loader.gif');
+    opacity : 1;
+    background-repeat : no-repeat;
+    background-position : center;
+    left : 0;
+    bottom : 0;
+    right : 0;
+    top : 0;
+}
+
+div[data-role="page"]{
+    background-color : #ffff  ;
+    top: -1px !important;
+}
+
+div[data-role="header"] button.back-button{
+    width: 5%!important;
+    top: 0;
+    padding: 20px;
+}
+div[data-role="header"]{
+    background-color: #00bb90 !important;
+    border-color: #ddd !important;
+    color: #fff !important;
+    text-shadow: 0 1px 0 #eee !important;
+    font-weight: 700;
+    font-size: 1em !important;
+
+}
+
+input,select,textarea{
+    color: #00bb90!important;
+    border: 1px solid #00bb90 !important;
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited {
+    background-color: #00bb90!important;
+    border-color: #00bb90!important;
+    color: #fff!important;
+    text-shadow: none!important;
+    width: 50%!important;
+    box-shadow: none!important;
+}
+.ui-page-theme-a .ui-btn:active{
+    background-color: #098266!important;
+    border-color: #098266!important;
+    box-shadow: none!important;
+}
+.ui-focus{
+   box-shadow: none!important;
+}
+.ui-input-text,.ui-input-text input{
+   
+    color: #00bb90!important;
+}
+
+.signUpLink{
+   text-align : right;
+   text-decoration: underline;
+   
+}
+.signUpLink a{
+    color: #00bb90!important;
+}
+
+
